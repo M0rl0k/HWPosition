@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+.wrap{
+    height: 600px;
+    background: silver;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+    background: aliceblue;
+    margin: 0 20px;
+    border: black solid 2px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.title{
+    width: fit-content;
+    font-size: 25px;
+}
+
+.icon{
+    border-radius: 50%;
+    background: aliceblue;
+    border: black solid 2px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+
+    width: 70px;
+    height: 70px;
+
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+
+}
+
+.fa-display{
+    font-size: 20px;
+}
+
+.fa-ioxhost{
+    font-size: 20px;
+}
+
+.fa-simplybuilt{
+    font-size: 20px;
+}
+
+.txt{
+    height: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px;
+    border: black solid 2px;
+    width: fit-content;
+
+}
