@@ -12,15 +12,21 @@ body{
 }
 
 .menu{
-    height: 3%;
+    height: fit-content;
     background: sienna;
     width: 100%;
+
+}
+
+ul{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-
+    margin: 0;
+    padding: 0;
 }
-.menu>li{
+
+.menu>ul>li{
     list-style: none;
 }
 
